@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/miestilo.css">
     <link rel="stylesheet" href="css/allremember.css">
-    <!-- <script>src='js/validations.js'</script> -->
+  
     <script>
     src = "main.js"
     </script>
@@ -19,7 +19,8 @@
 <body>
     <div class="container">
         <!-- <form name="forma" action="insertar.php" method="post" onsubmit="return valida_curriculum();"> -->
-            <form name="hola" action="insertar.php" method='post'>
+            <!-- <form name="hola" action="insertar.php" method='post'> -->
+        <form action="" method="POST" id="form">
             <h1>Ingreso de Curriculum</h1>
             <div class="row">
                 <label for="nombre">Nombre:</label>
@@ -75,6 +76,7 @@
             <div id="buttonSend">
                 <input type="submit" value="Resistrar">
                 <input type="reset" value="Limpiar">
+                <p class="warnings" id ="warnings"></p></p>   <!-- Esto se agrego -->
             </div>
 
         </form>
@@ -82,6 +84,7 @@
     </div> <!-- Fin del Container -->
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>src='app.js'</script>
 </body>
 
 </html>

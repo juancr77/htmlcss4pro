@@ -1,0 +1,3 @@
+const pass
+
+es el bueno para ver el value .value en el navegador

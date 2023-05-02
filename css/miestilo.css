@@ -44,6 +44,14 @@ body {
 color: #ccc;
 }
 
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #B06AB3;
+    padding-top: 20px;
+}
+
 .container {
     border-radius: 5px;
     /*border: 1px solid red;*/
