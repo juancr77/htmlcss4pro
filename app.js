@@ -1,5 +1,5 @@
 const nombre = document.getElementById("f_nom")
-const ape = document.getElementById("apellido")
+const ape = document.getElementById("f_ape")
 const pass = document.getElementById("password")
 const form = document.getElementById("form")
 const parrado = document.getElementById("warnings")
